@@ -1,0 +1,13 @@
+body{
+    font-family: Montserrat;
+    font-weight: 400;
+    padding-top: 20px;
+}
+body h2{
+    font-weight: 800;
+}
+.container{
+    width: 60%;
+}
+
+

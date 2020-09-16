@@ -148,18 +148,20 @@
             <p class="text-light g-padding-y-30--xs g-padding-y-30--sm g-padding-x-80--md g-padding-x-60--sm g-padding-x-40--xs">Join our amazing entrepreneurial community now!</p>
 
             <div class="g-padding-y-30--xs g-padding-y-30--sm g-padding-x-80--md g-padding-x-60--sm g-padding-x-40--xs">
-                <form>
+                <form method ="post" action="register.php">
                     <div class="form-group">
                         <label class="text-light" for="exampleFormControlSelect1">Select Number of Team Members</label>
-                        <select class="form-control" id="exampleFormControlSelect1">
+                        <select name="SIZE" class="form-control" id="exampleFormControlSelect1">
+                          <option>1</option>
                           <option>2</option>
                           <option>3</option>
                           <option>4</option>
                           <option>5</option>
                         </select>
                     </div>
+                    <button class="btn btn-outline-light" name="submit_member" type="submit">Submit</button>
                 </form>
-                <button class="btn btn-outline-light" type="submit">Submit</button>
+                
             </div>
 
 
